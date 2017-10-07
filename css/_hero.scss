@@ -7,15 +7,17 @@
   height: 100vh;
   background: url(../img/hero-bg.jpg) top center fixed;
   background-size: cover;
-  
+   }
   .hero-logo {
     
     margin: 20px;
     img {
-      max-width: 50%;
+      display: table;
+      /* max-width: 10% */
+      width: 750px;
+      height: 395px;
     }
 
-  }
 
   .hero-container {
     background: rgba(0,0,0,0.80);
