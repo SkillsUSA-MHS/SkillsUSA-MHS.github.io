@@ -1,5 +1,8 @@
 ## Welcome to Mililani High School's SkillsUSA website!
 
+https://skillsusa-mhs.github.io/
+
+
 SkillsUSA is a partnership of students, teachers and industry working together to ensure America has a skilled workforce. SkillsUSA helps each student excel. 
 
 Mililani High's website is meant as a resource to review calendar dates, distribute information, and archive all notes and activities conducted by our club.
