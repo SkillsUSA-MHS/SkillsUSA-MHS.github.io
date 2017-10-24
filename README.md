@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Welcome to Mililani High School's SkillsUSA website!
 
-You can use the [editor on GitHub](https://github.com/SkillsUSA-MHS/SkillsUSA-MHS.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+https://skillsusa-mhs.github.io/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+SkillsUSA is a partnership of students, teachers and industry working together to ensure America has a skilled workforce. SkillsUSA helps each student excel. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Mililani High's website is meant as a resource to review calendar dates, distribute information, and archive all notes and activities conducted by our club.
 
-```markdown
-Syntax highlighted code block
+### We are powered by Github
 
-# Header 1
-## Header 2
-### Header 3
+This SkillsUSA club site is powered and hosted by Github Pages.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SkillsUSA-MHS/SkillsUSA-MHS.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Want to contribute? Go ahead and make a pull request with any changes you want to make to our site. We will review and make a decision to merge or reject as soon as we can!
+
+Having trouble with Pages? Check out its [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and they'll help you sort it out.
+
+
