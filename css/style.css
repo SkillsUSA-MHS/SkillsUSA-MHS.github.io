@@ -156,8 +156,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #00548d;
+  border: 2px solid #00548d;
   color: #fff;
 }
 
@@ -173,8 +173,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #00548d;
+  border: 2px solid #00548d;
 }
 
 /*--------------------------------------------------------------
@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #03C4EB;
+  color: #00548;
 }
 
 .nav-menu ul {
@@ -471,7 +471,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #00548d;
   margin: 0 auto;
   margin-bottom: 20px;
 }
