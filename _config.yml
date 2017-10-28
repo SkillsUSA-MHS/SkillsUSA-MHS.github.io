@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 plugins:
   - jekyll-redirect-from
+  
   - jekyll-seo-tag
-=======
-gems:
-	-jekyll-redirect-from
->>>>>>> 2f886b37a1c8f794a2215a50c35ffcfc592d42cf
