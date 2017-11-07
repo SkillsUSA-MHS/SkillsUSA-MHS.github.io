@@ -601,7 +601,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #fff;
+  background: #EE1B2E;
   padding: 80px 0;
 }
 
@@ -619,7 +619,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item .details {
   height: 260px;
-  background: #fff;
+  background: #EE1B2E;
+  color:#EE1B2E;
   display: table-cell;
   vertical-align: middle;
   opacity: 0;
@@ -635,12 +636,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
   font-weight: 700;
-  color: #333333;
+  color: #EE1B2E;
 }
 
 #portfolio .portfolio-item .details span {
   display: block;
-  color: #666666;
+  color: #EE1B2E;
   font-size: 13px;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
