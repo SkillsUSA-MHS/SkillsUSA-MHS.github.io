@@ -600,12 +600,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Portfolio Section
 --------------------------------*/
-#portfolio {
-  background: #EE1B2E;
+#eventscurrent {
+  background: #fff;
   padding: 80px 0;
 }
 
-#portfolio .portfolio-item {
+#eventscurrent .portfolio-item {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -617,10 +617,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#portfolio .portfolio-item .details {
+#eventscurrent .portfolio-item .details {
   height: 260px;
-  background: #EE1B2E;
-  color:#EE1B2E;
+  background: #fff;
   display: table-cell;
   vertical-align: middle;
   opacity: 0;
@@ -628,7 +627,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
-#portfolio .portfolio-item .details h4 {
+#eventscurrent .portfolio-item .details h4 {
   font-size: 16px;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
@@ -636,12 +635,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
   font-weight: 700;
-  color: #EE1B2E;
+  color: #333333;
 }
 
-#portfolio .portfolio-item .details span {
+#eventscurrent .portfolio-item .details span {
   display: block;
-  color: #EE1B2E;
+  color: #666666;
   font-size: 13px;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
@@ -650,16 +649,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translate3d(0, 15px, 0);
 }
 
-#portfolio .portfolio-item:hover .details {
+#eventscurrent .portfolio-item:hover .details {
   opacity: 0.8;
 }
 
-#portfolio .portfolio-item:hover .details h4 {
+#eventscurrent .portfolio-item:hover .details h4 {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
-#portfolio .portfolio-item:hover .details span {
+#eventscurrent .portfolio-item:hover .details span {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
