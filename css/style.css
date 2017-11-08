@@ -487,6 +487,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url(../img/about-img.jpg) left top no-repeat;
 }
 
+#about .kiawe-container {
+  background: url(../img/event-1.jpg) left top no-repeat;
+  background-size: contain;
+}
+
 #about .about-content {
   background: #fff;
 }

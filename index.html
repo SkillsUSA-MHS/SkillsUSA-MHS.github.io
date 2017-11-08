@@ -1,3 +1,22 @@
+  <!-- Php Email form -- >
+<?php 
+if(isset($_POST['submit'])){
+  $to = "skillsusamililani@gmail.com"; // this is your Email address
+  $from = $_POST['email']; // this is the sender's Email address
+  $name = $_POST['name'];
+  $subject = $_POST['subject'];
+  $subject2 = "Copy of your form submission";
+  $message = $name . " " . " wrote the following:" . "\n\n" . $_POST['message'];
+  $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
+
+  $headers = "From:" . $from;
+  $headers2 = "From:" . $to;
+  mail($to,$subject,$message,$headers);
+  mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+  // You can also use header('Location: thank_you.php'); to redirect to another page.
+  }
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -463,7 +482,7 @@
         <div class="col-md-12">
           <h3 class="section-title">Contact Us</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">Have a question that our office can answer? Send an email to our Club Account. NOTE: Our response may not be timely, if crucial then please see an advisor!</p>
         </div>
       </div>
       
@@ -472,22 +491,23 @@
           <div class="info">
             <div>
               <i class="fa fa-map-marker"></i>
-              <p>A108 Adam Street<br>New York, NY 535022</p>
+              <p>95-1200 Meheula Pkwy<br>Mililani, HI 96789</p>
             </div>
             
             <div>
               <i class="fa fa-envelope"></i>
-              <p>info@example.com</p>
+              <p>skillsusamililani@gmail.com</p>
             </div>
             
             <div>
               <i class="fa fa-phone"></i>
-              <p>+1 5589 55488 55s</p>
+              <p>Phone # Unavailable</p>
             </div>
             
           </div>
         </div>
         
+
         <div class="col-md-5 col-md-push-2">
           <div class="form">
             <div id="sendmessage">Your message has been sent. Thank you!</div>
