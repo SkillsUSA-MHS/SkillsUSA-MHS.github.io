@@ -30,13 +30,13 @@ In order to streamline the process of adding events to the website, a template v
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>SkillsUSA Mililani High School - Kiawe</title>
+  <title>SkillsUSA Mililani High School - ((EVENT NAME))</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="SkillsUSA, mililani, Mililani, High, School, MHS, Github, Skills, USA, skillsusa, kiawe, event" name="keywords">
+  <meta content="SkillsUSA, mililani, Mililani, High, School, MHS, Github, Skills, USA, skillsusa, event" name="keywords">
   <meta content="Official website for Mililani High School's SkillsUSA chapter. Discover our club, upcoming events, and more." name="description">
     
   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
-  <meta property="og:title" content="Skills-USA - Kiawe">
+  <meta property="og:title" content="Skills-USA MHS - ((EVENT NAME))">
   <meta property="og:image" content="">
   <meta property="og:url" content="">
   <meta property="og:site_name" content="">
@@ -135,24 +135,24 @@ In order to streamline the process of adding events to the website, a template v
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Kiawe Wood Pickup</h3>
+          <h3 class="section-title">Event Name Here</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">The Kiawe Wood Pickup is a volunteer event on November 11th, where students will be collecting chopped wood for our later Imu Fundraiser.</p>
+          <p class="section-description">This is where you will describe the event, what it is, and what is going to happen at it.</p>
         </div>
       </div>
     </div>
-    <div class="container kiawe-container wow fadeInUp">
+    <div class="container (((event name )))-container wow fadeInUp"> <!-- Here you will insert the brief event name, along with this you will create a css function that holds the same ((( event name ))-container and insert the main image for your event-->
       <div class="row">
         <div class="col-md-6 col-md-push-6 about-content">
-          <h2 class="about-title">November 11th, Forms go to G104</h2>
+          <h2 class="about-title">Date, where forms go to.</h2>
           <p class="about-text">
-            SkillsUSA improves the quality of America’s skilled workforce through a structured program of citizenship, leadership, employability, technical and professional skills training. SkillsUSA enhances the lives and careers of students, instructors and industry representatives as they strive to be champions at work.
+            Details on the event.
           </p>
           <p class="about-text">
-            At Mililani High School, we strive to fulfill this purpose by giving all our members a platform to train their attitudes, values, and skills as champions of the 21st century.
+            Details on the event 2.
           </p>
           <p class="about-text">
-            Our club not only provides students opportunities to discover their unique skills they possess, but helps them refine those abilities in competition and selfless service towards our local communities. 
+            Details on the event 3.
           </p>
         </div>
       </div>
@@ -162,6 +162,19 @@ In order to streamline the process of adding events to the website, a template v
 
 </body>
 </html>
+
 ```
+
+Here is also the CSS function to be inserted into the projects main style.css:
+
+```
+#about .((( Event Name )))-container {
+  background: url(../img/event-(((Number according to event before this one))).jpg) left top no-repeat;
+  background-size: contain;
+}
+
+```
+
+Eventually the plan is to create a js function to handle all creation of event pages. Someday.
 
 
